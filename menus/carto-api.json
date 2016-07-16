@@ -1,0 +1,44 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "CARTO",
+        "submenu": [
+          {
+            "label": "SQL",
+            "submenu": [
+              {
+                "label": "-> GeoJSON",
+                "command": "carto-api:sql-get-csv"
+              },
+              {
+                "label": "-> CSV",
+                "command": "carto-api:sql-get-csv"
+              }
+            ]
+          },
+          {
+            "label": "Geocode",
+            "command": "carto-api:geocode"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "carto-api",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "carto-api:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

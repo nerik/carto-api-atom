@@ -1,0 +1,23 @@
+{
+  "name": "carto-api-atom",
+  "main": "./lib/carto-api",
+  "version": "0.0.0",
+  "description": "A suite of tools to interact with CARTO APIs (SQL, import, geocode...), from within Atom.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "carto-api:toggle",
+      "carto-api:sql-get-csv",
+      "carto-api:sql-get-geojson"
+    ]
+  },
+  "repository": "https://github.com/nerik/carto-api-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cartodb": "^0.5.1"
+  }
+}
