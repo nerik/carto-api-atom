@@ -9,7 +9,7 @@
             "submenu": [
               {
                 "label": "-> GeoJSON",
-                "command": "carto-api:sql-get-csv"
+                "command": "carto-api:sql-get-geojson"
               },
               {
                 "label": "-> CSV",
@@ -23,6 +23,13 @@
           }
         ]
       }
+    ],
+    ".tree-view .file .name[data-name$=\\.csv]": [
+      {
+        "label": "Import to CARTO",
+        "command": "carto-api:import"
+      },
+      { "type": "separator"}
     ]
   },
   "menu": [

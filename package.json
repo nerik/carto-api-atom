@@ -9,7 +9,9 @@
     "atom-workspace": [
       "carto-api:toggle",
       "carto-api:sql-get-csv",
-      "carto-api:sql-get-geojson"
+      "carto-api:sql-get-geojson",
+      "carto-api:geocode",
+      "carto-api:import"
     ]
   },
   "repository": "https://github.com/nerik/carto-api-atom",
