@@ -1,10 +1,9 @@
 {
   "name": "carto-api",
   "main": "./lib/carto-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A suite of tools to interact with CARTO APIs (SQL, import, geocode...), from within Atom.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "carto-api:toggle",
