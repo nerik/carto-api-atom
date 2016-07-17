@@ -14,6 +14,13 @@
       "carto-api:import"
     ]
   },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "repository": "https://github.com/nerik/carto-api-atom",
   "license": "MIT",
   "engines": {
