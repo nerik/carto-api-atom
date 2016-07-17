@@ -24,7 +24,7 @@
         ]
       }
     ],
-    ".tree-view .file .name[data-name$=\\.csv]": [
+    ".tree-view .file .name[data-name$=\\.csv], .tree-view .file .name[data-name$=\\.zip], .tree-view .file .name[data-name$=\\.xls], .tree-view .file .name[data-name$=\\.kml], .tree-view .file .name[data-name$=\\.shp]": [
       {
         "label": "Import to CARTO",
         "command": "carto-api:import"
