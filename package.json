@@ -6,7 +6,6 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "carto-api:toggle",
       "carto-api:sql-get-csv",
       "carto-api:sql-get-geojson",
       "carto-api:geocode",
