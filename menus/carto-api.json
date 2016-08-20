@@ -14,6 +14,14 @@
               {
                 "label": "-> CSV",
                 "command": "carto-api:sql-get-csv"
+              },
+              {
+                "label": "-> KML",
+                "command": "carto-api:sql-get-kml"
+              },
+              {
+                "label": "-> SVG",
+                "command": "carto-api:sql-get-svg"
               }
             ]
           },
