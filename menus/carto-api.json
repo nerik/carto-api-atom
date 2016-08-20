@@ -45,11 +45,32 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "carto-api",
+          "label": "CARTO",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "carto-api:toggle"
+              "label": "SQL",
+              "submenu": [
+                {
+                  "label": "-> GeoJSON",
+                  "command": "carto-api:sql-get-geojson"
+                },
+                {
+                  "label": "-> CSV",
+                  "command": "carto-api:sql-get-csv"
+                },
+                {
+                  "label": "-> KML",
+                  "command": "carto-api:sql-get-kml"
+                },
+                {
+                  "label": "-> SVG",
+                  "command": "carto-api:sql-get-svg"
+                }
+              ]
+            },
+            {
+              "label": "Geocode",
+              "command": "carto-api:geocode"
             }
           ]
         }
