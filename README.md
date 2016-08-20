@@ -1,6 +1,25 @@
 # carto-api-atom
 A suite of tools to interact with CARTO APIs (SQL, import, geocode...), from within Atom.
 
+## SQL: CSV
+
+<img src="./documentation/atom1.gif" />
+
+## SQL: GeoJSON
+
+<img src="./documentation/atom2.gif" />
+
+## SQL: SVG
+
+<img src="./documentation/atom3.gif" />
+
+## File import
+
+<img src="./documentation/atom-import.gif" />
+
+## Geocoding
+
+<img src="./documentation/atom-geocode.gif" />
 
 ## setup
 
